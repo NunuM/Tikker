@@ -2,10 +2,12 @@
 
 
 * Quick summary
+
 Android app, using ionic framework to make and build the core. It is a reddit client android app.
 
 
 * Version
+
 Firts version
 
 * [Tikker Website](https://tikker.tk)
@@ -22,6 +24,7 @@ Firts version
 3. Android SDK with API 22 installed
 
 * Deployment instructions
+
 cd myfolder
 ionic build android
 
