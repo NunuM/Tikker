@@ -25,8 +25,9 @@ Firts version
 
 * Deployment instructions
 
-cd myfolder
-ionic build android
+    $ cd myfolder
+  
+    $ ionic build android
 
 ### Contribution guidelines ###
 
