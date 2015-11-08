@@ -8,6 +8,8 @@
 * App preview
 
     ![Alt text](http://i.imgsafe.org/a291f66.png)
+    
+    ![Alt text](http://i.imgsafe.org/db90b7d.png)
 
 
 * [Tikker Website](https://tikker.tk)
