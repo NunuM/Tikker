@@ -5,10 +5,10 @@
 
     Android app, using ionic framework to make and build the core. It is a reddit client android app.
 
+* App preview
 
-* Version
+    ![Alt text](http://i.imgsafe.org/a291f66.png)
 
-    Firts version
 
 * [Tikker Website](https://tikker.tk)
 
