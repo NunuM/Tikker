@@ -18,16 +18,17 @@
 
 
 * Dependencies
+
 1. ionic
 2. cordova
 3. NodeJs
-3. Android SDK with API 22 installed
+4. Android SDK with API 22 installed
 
 * Deployment instructions
 
     $ cd myfolder
-  
     $ ionic build android
+
 
 ### Contribution guidelines ###
 
