@@ -1,0 +1,27 @@
+<ion-view view-title="Videos">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="video in videos" ng-show="isYoutube(video.data.domain)" href="#/app/videos/{{video.data.id}}">
+                <div class="list card">
+                    <div class="item item-body">
+                        <h2 class="post-title">{{video.data.title}}</h2>
+                        <img class="full-image" ng-src="{{video.data.media.oembed.thumbnail_url}}">
+                    </div>
+                    <div class="item tabs tabs-secondary tabs-icon-left">
+                        <a class="tab-item" href="#">
+                            <i class="icon ion-thumbsup"></i>
+                            {{video.data.ups| number}} Likes
+                        </a>
+                       
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+         <ion-infinite-scroll
+            on-infinite="loadMore()"
+            distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>
+
+

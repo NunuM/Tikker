@@ -1,0 +1,38 @@
+<ion-view view-title="Tikker">
+    <ion-content>
+        <div class="item item-divider icon-right ion-arrow-graph-up-right">
+            ON TOP
+        </div>
+        <ion-list>
+            <ion-item class="item-thumbnail-left" ng-repeat="item in funnies" href="#/app/home/{{item.id}}">
+                <img ng-src="{{item.img}}">
+                <h2 class="post-title">{{item.title}}</h2>
+                <p style="font-weight: bold;">In {{item.theme}}</p>
+            </ion-item>
+            <div class="item item-divider text-right">
+                <a class="button button-small icon-right ion-chevron-right button-clear button-dark" href="#/app/funny">+Funny Things</a>
+        </div>
+            <ion-item class="item-thumbnail-left" ng-repeat="item in videos" href="#/app/videos/{{item.id}}">
+                <img ng-src="{{item.img}}">
+                <h2 class="post-title">{{item.title}}</h2>
+                <p style="font-weight: bold;">In {{item.theme}}</p>
+            </ion-item>
+             <div class="item item-divider text-right">
+                <a class="button button-small icon-right ion-chevron-right button-clear button-dark" href="#/app/videos">+Videos</a>
+             </div>
+            <ion-item class="item-thumbnail-left" ng-repeat="item in gaming" href="#/app/home/{{item.id}}">
+                <img ng-src="{{item.img}}">
+                <h2 class="post-title">{{item.title}}</h2>
+                <p style="font-weight: bold;">In {{item.theme}}</p>
+            </ion-item>
+            <div class="item item-divider text-right">
+                <a class="button button-small icon-right ion-chevron-right button-clear button-dark" href="#/app/gamming">+Gaming Stuff</a>
+             </div>
+        </ion-list>
+        <ion-infinite-scroll
+            ng-if="moreDataCanBeLoaded()"
+            icon="ion-loading-c"
+            on-infinite="loadMoreData()">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

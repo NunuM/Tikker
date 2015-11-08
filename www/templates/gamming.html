@@ -1,0 +1,25 @@
+<ion-view view-title="Gaming">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="game in gamming" style="background-color: #EEEDEB;">
+                <div class="list card">
+                    <div class="item item-body">
+                        <h2 class="post-title">{{game.title}}</h2>
+                        <img class="full-image" ng-src="{{game.img}}">
+                    </div>
+                    <div class="item tabs tabs-secondary tabs-icon-left">
+                        <a class="tab-item" href="#">
+                            <i class="icon ion-android-favorite-outline"></i>
+                            {{game.ups| number}} Likes
+                        </a>
+                        
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll
+            on-infinite="loadMore()"
+            distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

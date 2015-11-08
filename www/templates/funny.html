@@ -1,0 +1,25 @@
+<ion-view view-title="Funny">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="funny in funnies" style="background-color: #EEEDEB;">
+                <div class="list card">
+                    <div class="item item-body">
+                        <h2 class="post-title">{{funny.data.title}}</h2>
+                        <img class="full-image" ng-src="{{funny.data.preview.images[0].source.url}}">
+                    </div>
+                    <div class="item tabs tabs-secondary tabs-icon-left">
+                        <a class="tab-item" href="#">
+                            <i class="icon ion-android-favorite-outline"></i>
+                            {{funny.data.ups| number}} Likes
+                        </a>
+                        
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll
+            on-infinite="loadMore()"
+            distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

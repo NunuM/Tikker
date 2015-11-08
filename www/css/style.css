@@ -1,0 +1,39 @@
+/* Empty. Add your own CSS if you like */
+
+.post-title{
+    color:#DD4814;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.left-costum{
+    color:#5E2750;
+    font-weight: bold;
+    background-color: #DD4814;  
+}
+
+.header-ti{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nm  h2{
+    color: black;
+    font-weight: bold;
+}

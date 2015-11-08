@@ -1,0 +1,17 @@
+<ion-view view-title="Picture">
+    <ion-content>
+       <div class="list card">
+                    <div class="item item-body">
+                        <h2 class="post-title">{{video.data.children[0].data.title}}</h2>
+                        <img class="full-image" ng-src="{{video.data.children[0].data.preview.images[0].source.url}}">
+                    </div>
+                    <div class="item tabs tabs-secondary tabs-icon-left">
+                        <a class="tab-item" href="#">
+                            <i class="icon ion-android-favorite-outline"></i>
+                            {{video.data.children[0].data.ups| number}} Likes
+                        </a>
+                        
+                    </div>
+                </div>
+    </ion-content>
+</ion-view>
