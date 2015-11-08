@@ -1,6 +1,6 @@
 # Tikker
 
-* [Tikker Website](https://tikker.tk)
+* [Download Tikker app](https://tikker.tk/android/android-debug.apk)
 
 * Quick summary
 
