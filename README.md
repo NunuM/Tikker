@@ -3,12 +3,12 @@
 
 * Quick summary
 
-Android app, using ionic framework to make and build the core. It is a reddit client android app.
+    Android app, using ionic framework to make and build the core. It is a reddit client android app.
 
 
 * Version
 
-Firts version
+    Firts version
 
 * [Tikker Website](https://tikker.tk)
 
