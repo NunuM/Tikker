@@ -17,18 +17,19 @@
 ### How do I get set up? ###
 
 * Summary of set up
-
+    Make sure you have all dependencies installed.
 
 * Dependencies
 
-1. ionic
-2. cordova
-3. NodeJs
-4. Android SDK with API 22 installed
+    1. Ionic
+    2. Cordova
+    3. NodeJs
+    4. Android SDK with API 22 installed
 
 * Deployment instructions
 
     $ cd myfolder
+    
     $ ionic build android
 
 
