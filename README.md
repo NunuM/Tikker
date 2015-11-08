@@ -28,7 +28,6 @@ Firts version
 cd myfolder
 ionic build android
 
-
 ### Contribution guidelines ###
 
 * Writing tests
