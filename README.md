@@ -12,6 +12,10 @@
     
     ![Alt text](http://i.imgsafe.org/db90b7d.png)
 
+* On Android device
+
+    ![Alt text](http://i.imgsafe.org/adb3074.png)
+
 
 * [Tikker Website](https://tikker.tk)
 
