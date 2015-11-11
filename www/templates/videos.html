@@ -1,7 +1,7 @@
 <ion-view view-title="Videos">
     <ion-content>
         <ion-list>
-            <ion-item ng-repeat="video in videos" ng-show="isYoutube(video.data.domain)" href="#/app/videos/{{video.data.id}}">
+            <ion-item ng-repeat="video in videos" ng-show="isYoutube(video.data.domain)" href="#/app/videos/{{video.data.id}}" style="background-color: #EEEDEB;">
                 <div class="list card">
                     <div class="item item-body">
                         <h2 class="post-title">{{video.data.title}}</h2>
