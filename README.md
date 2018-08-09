@@ -1,6 +1,5 @@
 # Tikker
 
-* [Download Tikker app](https://tikker.tk/android/android-debug.apk)
 
 * Quick summary
 
