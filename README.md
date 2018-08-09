@@ -17,8 +17,6 @@
     ![Alt text](http://i.imgsafe.org/adb3074.png)
 
 
-* [Tikker Website](https://tikker.tk)
-
 ### How do I get set up? ###
 
 * Summary of set up
